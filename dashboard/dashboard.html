@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en-Us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel = "stylesheet" href="style.css" />
+        <link rel="icon" href="./favicon.png" type="image/png">
+        <title>Dashboard</title>
+        
+
+    </head>
+
+    <body>
+
+        <div id="header"  class="row">
+            
+            <div id="tittle" class="col-sm-12 col-md-4 col-lg-4" >
+                <h1>ioMedic</h1>
+            </div>
+            <div id="nav" class="col-sm-12 col-md-8 col-lg-8" >
+              <ul>
+                  <li ><a class="active" href="dashboard.html">Dashboard</a></li>
+                  <li><a href="cam.html">livefeed</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="profile.html">Profile</a></li>
+              </ul>
+            </div>
+                         
+        </div>
+        <div class="container container-fluid">
+            <img src="noload.jpeg" alt="image">
+                <center>
+            <header>                    
+              <h1>Control</h1>                
+            </header>               
+            <div>                       
+              <table>                               
+                <tr>                                        
+                  <td>link 1: </td>                                        
+                  <td><input class="enabled" id="l1" type="range" min="0" max="180" step="1" oninput="sendB()" value="0"></td>                               
+                </tr>                               
+                <tr>                                        
+                  <td>link 2:  </td>                                        
+                  <td><input class="enabled" id="l2" type="range" min="0" max="180" step="1" oninput="sendS()" value="0"></td>                               
+                </tr>                               
+                <tr>                                        
+                  <td>link 3: </td>                                      
+                  <td><input class="enabled" id="l3" type="range" min="0" max="180" step="1" oninput="sendL()" value="0"></td>                               
+                </tr>                       
+              </table>             
+            </div> 
+            <br> 
+            <h3 id="vl"></h3>     
+        </center>
+          <button class="btn btn-primary" onclick="scan()" id="scn"> Scan </button> 
+            <br><br><br>
+        </div>
+
+
+
+
+        <div id="footer">
+            <p>Copyright © 2021 ioMedic</p>
+        </div>
+    </body>
+        <script src="bootstrap.min.js"></script>
+        <script src="script.js"></script>
+</html>
+

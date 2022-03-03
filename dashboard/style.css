@@ -1,0 +1,75 @@
+#header {
+    background-color: rgb(26, 0, 0);
+    color: white;
+    padding-top: 30px;
+     
+}
+#nav {
+    text-align: right;
+    padding-top: 20px;
+
+}
+#tittle {
+    padding-left: 50px;
+}
+#nav li {
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ #logo{
+     width: 128px;
+     height: 128px;
+ }
+#nav  li a {
+    display: inline;
+    text-decoration: none; 
+    color:white;
+}
+
+#nav  a:hover{
+   color: darkgray;
+}
+.container.container-fluid{
+   text-align: center;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   height: 1000px;
+}
+.btn-led {
+    background-color:rgb(242, 242, 242);
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#hoto {
+    size: 100%;
+   
+}
+#footer{
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(26, 0, 0);
+    color: white;
+}
+#panel th {
+    text-align:center;
+}
+
+.dropdown-content {
+   
+   position: relative;
+    background-color: #f9f9f9;
+    width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 16px;
+   }
+.btn{
+    border-radius:20px;
+    background-color: rgb(0, 102, 255);
+    padding: 10px;
+    color: white;
+}
+#scn{
+    
+}

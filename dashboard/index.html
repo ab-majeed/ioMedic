@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en-Us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel = "stylesheet" href="style.css" />
+        <link rel="icon" href="./favicon.ico" type="image/icon">
+        <title>Login</title>
+        
+
+    </head>
+
+    <body>
+
+        <div id="header"  class="row">
+            
+            <div id="tittle" class="col-sm-12 col-md-4 col-lg-4" >
+                <h1>ioMedic</h1>
+            </div>
+            <div id="nav" class="col-sm-12 col-md-8 col-lg-8" >
+              <ul>
+                  
+              </ul>
+            </div>
+                         
+        </div>
+        <div class="container container-fluid">
+            <br><br>
+            <form action="/login" method="POST">
+                <fieldset>
+                    <legend><h2>Login</h2></legend>
+                    <div>
+                        <label>Email:</label>
+                        <div>
+                            <input type="email" name="email" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div><br>
+                        <label>Password:</label>
+                        <div >          
+                            <input type="password" name="pwd" placeholder="Enter password">
+                        </div>
+                    </div>
+                    <div><br>        
+                        <div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                         </div>
+                    </div>
+                </fieldset>
+            </form>
+
+            <br><br><br>
+        </div>
+
+
+
+
+        <div id="footer">
+            <p>Copyright © 2021 ioMedic</p>
+        </div>
+    </body>
+        <script src="bootstrap.min.js"></script>
+        <script src="script.js"></script>
+</html>
+
